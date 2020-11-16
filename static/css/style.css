@@ -1,0 +1,108 @@
+.container-1{
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+.flex-box-container-1, .flex-box-rps{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flex-box-container-1 div {
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+    align-items: center;
+}
+
+
+/*   for challenge 2  */
+
+.container-2{
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+.flex-box-container-2{
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.flex-box-container-2 img{
+    margin: 10px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7)
+}
+
+
+.container-3, .container-4{
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+.flex-box-rps img:hover{   /* so we have use hover so that whenever we place our cursor over the image it will hover  */
+    box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+}
+.flex-box-pick-color{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.container-5{
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center; 
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.flex-blackjack-row-1, .flex-blackjack-row-2{
+    background: url('http://getwallpapers.com/wallpaper/full/5/0/8/655343.jpg' ) center;
+    color: black;
+}
+
+.flex-blackjack-row-1 div{
+    border: 1px solid black;
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    height: 350px;
+}
+
+.flex-blackjack-row-1 img{
+    width: 25%;
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 button{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.flex-blackjack-row-2 div {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+table, th, td {
+    padding: 5px;
+    border: 1px solid black;
+}
